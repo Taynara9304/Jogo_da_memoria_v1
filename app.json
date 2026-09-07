@@ -16,10 +16,25 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.taynara007.reanimated"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/Jogo_da_memoria_v1"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40704214-c6bd-4164-9380-62f269afb00d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/40704214-c6bd-4164-9380-62f269afb00d"
     }
   }
 }
